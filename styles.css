@@ -1,0 +1,149 @@
+body {
+  background-color: white;
+}
+.head {
+  height: 30px;
+  width: 100%;
+}
+.body {
+  display: flex;
+  
+ 
+}
+.principal {
+  width: 78%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.secundario {
+  margin-top: 0px;
+  padding: 0px;
+  width: 400px;
+  border: 2px solid;
+  background-color: darkblue;
+  color: white;
+  height: 90vh;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.author {
+  text-decoration: underline;
+  font-size: 20px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+img {
+  height: 40%;
+  width: 90%;
+}
+.palabraClave{
+  height: 60%;
+  width: 40%;
+  margin: 10px;
+}
+.footerInput{
+  height:30%;
+}
+.copyButton {
+  margin: 15px;
+  width: 40%;
+  height: 36px;
+   
+  margin-left: 10px;
+  text-align: center;
+  
+
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#texto {
+  width: 20%;
+  border-radius: 5px;
+  margin: 20px;
+  width: 100%;
+  max-width: 600px;
+  font-size: 70%;
+}
+input {
+  width: 100%;
+  height: 150px;
+  padding: 10px;
+  box-sizing: border-box;
+  
+  
+  
+}
+
+span {
+  font-size: 20px;
+}
+.mensaje {
+  font-size: 26px;
+  color: orange;
+}
+.gris {
+  background-color: #6c757d;
+  text-align: center;
+  color: white;
+}
+.blue {
+  background-color: blue;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+.texto {
+  margin: 17px;
+  
+}
+.input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: darkblue;
+  height: 50%;
+  margin-top: 10%;
+  width: 60%;
+  
+}
+.button {
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 100%;
+}
+.encriptar {
+  background-color: darkblue;
+  color: white;
+  height: 67px;
+  width: 20%;
+  margin-right: 2%;
+  border-radius: 17px;
+}
+.desencriptar {
+  border: 0.5px solid darkblue;
+  background-color: #e9ecf8;
+  border-radius: 17px;
+  height: 67px;
+  width: 20%;
+  margin-left: 2%;
+  color: darkblue;
+}
+.input{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,89 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f0f0f0;
+}
+.messages {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  
+}
+.welcomeButtons {
+  margin-left: 10%;
+}
+.welcome {
+  margin-top: 10%;
+  text-align: center;
+}
+.btn {
+  color: white;
+}
+.inputQuestion {
+  position: fixed;
+  bottom: 3px;
+
+  background-color: #f0f0f0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+.outputQuestion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: start;
+
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  width: 75%;
+}
+.outputQuestion li {
+  margin-left: 12px;
+}
+.text {
+  height: 300px;
+}
+.userQuestion {
+  color: white;
+
+  margin-bottom: 2%;
+  margin-left: 23%;
+  align-self: right;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 60%;
+  list-style-type: none;
+}
+.message {
+  font-family: "Roboto", sans-serif;
+  font-weight: 4%;
+  background-color: blue;
+  border-radius: 10px;
+  padding: 12px;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
+.botAnswer {
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Roboto", sans-serif;
+  font-weight: 4%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  width: 80%;
+  list-style-type: none;
+  background-color: white;
+  border-radius: 10px;
+  padding: 12px;
+  display: inline-block;
+  text-align:justify;
+}
+.final {
+  height: 25vh;
+  
+}
